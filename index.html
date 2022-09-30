@@ -20,41 +20,50 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="#">La conferencia</a>
+							<a class="nav-link text-white" href="#">La conferencia</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Los oradores</a>
+							<a class="nav-link text-white" href="#">Los oradores</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">El lugar y la fecha</a>
+							<a class="nav-link text-white" href="#">El lugar y la fecha</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Conviértete en orador</a>
+							<a class="nav-link text-white" href="#">Conviértete en orador</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="#">Comprar Tickets</a>
+							<a class="nav-link text-success" href="#">Comprar Tickets</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</head>
+
 	<section>
 		<div class="card text-bg-dark">
 			<img src="./cosas/ba1.jpg" class="card-img" alt="...">
-			<div class="card-img-overlay d-flex align-items-end flex-column mb-3">
-			  <h5 class="card-title p-2">Conf Bs As</h5>
-			  <p class="card-text-end">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-			  <div class="p-2 card-text flex-shrink-1">Flex item</div>
-			  <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>	
-				<button class="btn btn-secondary border-white" type="button">Button</button>
-				<button class="btn btn-success" type="button">Button</button>
-			  </div>
+			<div class="card-img-overlay d-flex align-items-end flex-column">
+				<h3 class="card-title p-2">Conf Bs As</h3>
+				<!-- <p class="card-text-end ">Bs As llegan por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos! This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+				<!-- style="width: 50%;" -->
+				<div class="d-flex text-end w-50">
+					Bs As llegan por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos! This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+					<button class="btn btn-outline-secondary border-white text-white" type="button">
+						Quiero ser orador
+					</button>
+					<button class="btn btn-success" type="button">
+						Comprar tickets
+					</button>
+				</div>	
 			</div>
-		  </div>
 		</div>
 	 </section>
-	 <section>
+
+
+	 <section class="py-2">
 		<div class="d-flex justify-content-center">Conoce a los</div>
 		<div class="d-flex justify-content-center">
 			<h1> 
@@ -111,7 +120,7 @@
 			</div>
 		</div>
 	 </section>
-<section>
+<section class="py-2">
 	<div class="container">
 		<div class="row row-cols-2">
 		  <div class="col">
@@ -137,17 +146,17 @@
 				ORADOR 
 			</h1>
 	</div>
-	<div class="d-flex justify-content-center">Anótate como orador para dar una <abbr title="attribute"> charla ignite.</abbr> Cuéntanos de qué quieres hablar!
+	<div class="d-flex justify-content-center">Anótate como orador para dar una&nbsp;<abbr title="attribute">charla ignite.</abbr>&nbsp;Cuéntanos de qué quieres hablar!
 
 	</div>
 
 </div>
 <section class="container w-75 mt-4">
 		<form class="row">
-			<div class="col">
+			<div class="col mb-2 ps-0">
 			  <input type="text" class="form-control" placeholder="Nombre">
 			</div>
-			<div class="col">
+			<div class="col mb-2 pe-0">
 			  <input type="text" class="form-control" placeholder="Apellido">
 			</div>
 			<form class="form-floating">
@@ -155,7 +164,7 @@
 				<div class="form-text">
 					Recuerda incluir un título para tu charla
 				</div>
-				<div class="d-grid gap-2 mt-2">
+				<div class="d-grid gap-2 mt-2 px-0">
 					<button class="btn btn-success" type="button">Enviar</button>
 				</div>
 			</form>
